@@ -1,0 +1,102 @@
+/* applies styles to <header> */
+* {margin: 0; padding: 0px; box-sizing: border-box;}
+
+body{
+    background-color:rgb(206, 208, 211);
+    font-family: Arial, Helvetica, sans-serif;
+    color: darkorchid
+    
+}
+
+header
+    {padding: 15px 15px;
+    background-color: lightslategray;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+header img{
+    inline-size: 150px;
+}
+
+header h1{ 
+    font-weight: bold;
+    font-size: 45px;
+    color: purple;
+    margin: 0;
+    }
+
+header nav {
+    margin: 10px 0;
+}
+
+header nav ul{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+header nav ul li a{
+    padding: 10px 15px;
+    font-weight: lighter;
+    font-size: 1.5vw;
+}
+
+/*jumbotron section*/
+
+.jumbotron{
+    background-image: url('../assets/images/purple-calla.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+    color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    
+}
+
+h2{
+    border-right: 3px solid green;
+}
+
+p{
+    margin-left: 40px;
+}
+
+#about-me{
+    display: flex;
+    padding: 200px;
+}
+
+/*Work pages*/
+#work{
+    display: flex;
+    
+}
+
+
+#work{
+    display: flex;
+}
+.column{
+    flex: 50%;
+    padding: 10px;
+}
+
+.projects img{
+    width: 400px;
+
+}
+
+#contact-me p ul li{
+    
+}
+
+#contact-me{
+    padding: 500px;
+}
